@@ -1,0 +1,296 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How's it going?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care!",
+                "Bye! Come back soon!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thanks a lot",
+                "I appreciate it"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Happy to help!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "Who are you?",
+                "Tell me your name"
+            ],
+            "responses": [
+                "I am a chatbot created to assist you.",
+                "You can call me Chatbot.",
+                "I'm your virtual assistant."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "How old are you?",
+                "What is your age?",
+                "When were you born?"
+            ],
+            "responses": [
+                "I am timeless.",
+                "Age is just a number, and I don't have one.",
+                "I was created recently, but I don't have an exact age."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need assistance",
+                "Can you assist me?",
+                "I need help"
+            ],
+            "responses": [
+                "Sure, I'm here to help. What do you need assistance with?",
+                "Of course! What do you need help with?",
+                "I'm here to assist you. How can I help?"
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+                "I am sad",
+                "I feel down",
+                "I am unhappy",
+                "I feel bad"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Is there anything I can do to help?",
+                "It's okay to feel sad sometimes. I'm here for you.",
+                "I'm here to listen. What's bothering you?",
+                "Remember, it's okay to talk about your feelings. I'm here for you.",
+                "If you need someone to talk to, I'm here."
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "I am happy",
+                "I feel great",
+                "I am feeling good",
+                "I am joyful"
+            ],
+            "responses": [
+                "That's wonderful to hear! What made you happy today?",
+                "I'm glad you're feeling good! Anything exciting happen?",
+                "Keep smiling! It's great to see you happy. What brought you joy?",
+                "Happiness looks great on you! What's the reason for your smile?",
+                "It's fantastic to hear that you're feeling happy! Share your good news!"
+            ]
+        },
+        {
+            "tag": "angry",
+            "patterns": [
+                "I am angry",
+                "I feel mad",
+                "I am furious",
+                "I am upset"
+            ],
+            "responses": [
+                "I'm sorry you're feeling this way. Want to talk about it?",
+                "It's okay to feel angry. How can I help?",
+                "I'm here to listen if you need to vent.",
+                "Let's take a few deep breaths together. What's making you feel this way?",
+                "It's important to express your feelings. I'm here for you."
+            ]
+        },
+        {
+            "tag": "anxious",
+            "patterns": [
+                "I am anxious",
+                "I feel nervous",
+                "I am worried",
+                "I feel stressed"
+            ],
+            "responses": [
+                "Take a deep breath. What's making you feel anxious?",
+                "I'm here for you. Do you want to talk about what's making you anxious?",
+                "It's okay to feel anxious. Let's work through it together.",
+                "Remember, you're not alone. I'm here to help.",
+                "Let's take one step at a time. What can I do to help you feel better?"
+            ]
+        },
+        {
+            "tag": "academic_tutorial",
+            "patterns": [
+                "I need help with my studies",
+                "Can you help me with my homework?",
+                "I need a tutorial for my class",
+                "Can you explain this concept to me?",
+                "I need assistance with my assignment"
+            ],
+            "responses": [
+                "Sure, what subject do you need help with?",
+                "I can help with that. What specific topic are you working on?",
+                "Let's tackle your homework together. What's the topic?",
+                "I'm here to help you understand your class material. What do you need explained?",
+                "Tell me more about your assignment, and I'll do my best to assist."
+            ]
+        },
+        {
+            "tag": "math_tutorial",
+            "patterns": [
+                "I need help with math",
+                "Can you explain this math problem?",
+                "How do I solve this equation?",
+                "Can you help me with calculus?",
+                "I don't understand this math concept"
+            ],
+            "responses": [
+                "I'd be happy to help with math. What specific problem are you working on?",
+                "Let's break down this math problem together. Can you tell me more?",
+                "Calculus can be tricky. Which part are you struggling with?",
+                "I'm here to help with math. What's the concept you need help with?",
+                "Let's work through this math problem step by step. What do you need help with?"
+            ]
+        },
+        {
+            "tag": "algebra",
+            "patterns": [
+                "what is algebra?",
+                "how to solve algebra?"
+            ],
+            "responses": [
+                "Algebra can be fun once you get the hang of it. What's the equation you're working on?",
+                "To solve this algebra problem, you need to isolate the variable. Let's go through it step by step.",
+                "Algebra is all about finding the unknown. Which part are you stuck on?"
+            ]
+        },
+        {
+            "tag": "calculus",
+            "patterns": [
+                "what is calculus?",
+                "how to solve calculus"
+            ],
+            "responses": [
+                "Calculus involves limits, derivatives, and integrals. Which specific topic do you need help with?",
+                "Let's tackle this calculus problem. Are you working on differentiation or integration?",
+                "Calculus can be challenging. Do you need help with a specific function or theorem?"
+            ]
+        },
+        {
+            "tag": "science_tutorial",
+            "patterns": [
+                "I need help with science",
+                "Can you explain this science concept?",
+                "How does this experiment work?",
+                "Can you help me with biology?",
+                "I don't understand this physics concept"
+            ],
+            "responses": [
+                "Science is fascinating! What specific concept do you need help with?",
+                "Let's explore this science topic together. What do you need explained?",
+                "Biology can be complex. Which part are you having trouble with?",
+                "Physics can be challenging. What's the concept you need help with?",
+                "I'm here to help with your science questions. What's the topic?"
+            ]
+        },
+        {
+            "tag": "biology",
+            "patterns": [
+                "I need help with biology",
+                "Can you explain biology concept?",
+                "what is biology?",
+                "Can you help me with biology?"
+            ],
+            "responses": [
+                "Biology is the study of life. Are you focusing on cells, genetics, or ecology?",
+                "Let's dive into this biology topic. What specific process or system are you studying?",
+                "Biology covers a lot of ground. Which part of your assignment are you finding difficult?"
+            ]
+        },
+        {
+            "tag": "physics",
+            "patterns": [
+                "I need help with physics",
+                "Can you explain physics?",
+                "what is physics?"
+            ],
+            "responses": [
+                "Physics explains how the universe works. What's the concept you're struggling with?",
+                "Let's break down this physics problem. Are you working on mechanics, electricity, or waves?",
+                "Physics can be tough, but we can work through it. Which law or principle do you need help with?"
+            ]
+        },
+        {
+            "tag": "history_tutorial",
+            "patterns": [
+                "I need help with history",
+                "Can you explain this historical event?",
+                "How did this happen?",
+                "Can you help me with my history assignment?",
+                "I don't understand this part of history"
+            ],
+            "responses": [
+                "History is full of interesting stories. What event do you need help with?",
+                "Let's dive into this historical topic. What do you need explained?",
+                "History can be fascinating. What part are you having trouble with?",
+                "I'm here to help with your history questions. What's the topic?",
+                "Let's explore this part of history together. What do you need help with?"
+            ]
+        },
+        {
+            "tag": "ancient_history",
+            "patterns": [
+                "I need help with ancient history",
+                "Can you explain ancient history?",
+                "what is ancient history?"
+            ],
+            "responses": [
+                "Ancient history is full of incredible stories. Which civilization are you studying?",
+                "Let's explore this ancient event. Are you looking at Egypt, Greece, or another culture?",
+                "Ancient history can be complex. Which specific event or figure do you need help with?"
+            ]
+        },
+        {
+            "tag": "modern_history",
+            "patterns": [
+                "I need help with modern history",
+                "Can you explain modern history?",
+                "what is modern history?"
+            ],
+            "responses": [
+                "Modern history covers recent events. Which time period or event are you focusing on?",
+                "Let's dive into this modern history topic. Are you studying a war, a political movement, or something else?",
+                "Modern history can be intricate. Which specific aspect or person do you need help with?"
+            ]
+        }
+    ]
+}
